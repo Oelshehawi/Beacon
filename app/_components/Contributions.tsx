@@ -12,7 +12,8 @@ const Contributions = () => {
         'Settings Page with Material Design',
         'Client Side Form Validation',
         'Database Schema Updates for User',
-        'Password Hashing Implementation'
+        'Password Hashing Implementation',
+        'Project Showcase Site'
       ]
     },
     {

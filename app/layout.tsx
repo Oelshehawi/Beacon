@@ -14,8 +14,20 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Beacon",
-  description: "Social app with proximity",
+  title: "Beacon - Local Social Network",
+  description: "Beacon is a revolutionary location-based social network that connects you with your local community. Built with cutting-edge technology including real-time location services, secure authentication, and seamless media sharing. Created by Group 13 as part of our innovative approach to local social networking.",
+  keywords: ["Beacon", "Social Network", "Location Based", "Community", "Android App", "Mobile App", "Social Media"],
+  authors: [
+    { name: "Omar Elshehawi" },
+    { name: "Jonathan Gibbons" },
+    { name: "Zaid Arshad" },
+    { name: "Lex Rohweder" }
+  ],
+  openGraph: {
+    title: "Beacon - Connect with Your Local Community",
+    description: "Discover a new way to connect with people around you through Beacon's innovative location-based social network.",
+    type: "website",
+  }
 };
 
 export default function RootLayout({
