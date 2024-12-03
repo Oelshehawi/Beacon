@@ -5,14 +5,14 @@ const Contributions = () => {
   const contributions = [
     {
       name: 'Omar Elshehawi',
-      role: 'Frontend Development',
+      role: 'Fullstack Development',
       tasks: [
-        'User Sign up and Login Pages',
-        'User Sign Up and Login Flow',
-        'Settings Page with Material Design',
-        'Client Side Form Validation',
-        'Database Schema Updates for User',
-        'Password Hashing Implementation',
+        'User Login/Signup',
+        'Error management',
+        'Form Validation',
+        'Password Hashing',
+        'Settings page Init layout',
+        'Various Database Updates',
         'Project Showcase Site'
       ]
     },
@@ -20,33 +20,37 @@ const Contributions = () => {
       name: 'Jonathan Gibbons',
       role: 'Frontend Polish',
       tasks: [
+        'Image Taking, Handling, and Saving',
         'Firebase Cloud Storage Setup',
-        'Image Upload Integration',
-        'Post and Feed Layout Improvements',
-        'Homepage Image Integration',
-        'UI/UX Refinements'
+        'Posts and Feed Layout',
+        'Like Database Updates',
+        'General Layout Improvements'
       ]
     },
     {
       name: 'Zaid Arshad',
       role: 'Frontend Infrastructure',
       tasks: [
-        'Extended Server API Integration',
-        'Location Services Implementation',
-        'Progress Bar User Feedback',
-        'Database Integration',
-        'Better Location Loading'
+        'Server API extension',
+        'Location services management',
+        'Improved user feedback',
+        'Replies',
+        'Mapping',
+        'Theming',
+        'Video Presentations'
       ]
     },
     {
       name: 'Lex Rohweder',
       role: 'Backend Infrastructure',
       tasks: [
-        'Backend Architecture',
-        'Database Design',
-        'API Development',
-        'Server Infrastructure',
-        'System Integration'
+        'Main Server Structure',
+        'Data Storage',
+        'Database Interaction',
+        'API creation and management',
+        'Schema Creation',
+        'Connection Management',
+        'Server Hosting'
       ]
     }
   ]
