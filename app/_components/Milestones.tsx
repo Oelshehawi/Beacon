@@ -20,6 +20,12 @@ const Milestones = () => {
       date: 'Show and Tell 2',
       description: 'Feature implementation and testing results',
       videoUrl: 'https://www.youtube.com/embed/NBzsVF-75fQ'
+    },
+    {
+      title: 'Final Presentation',
+      date: 'Project Completion',
+      description: 'Final demonstration and project overview',
+      videoUrl: 'https://www.youtube.com/embed/JqgNXDbLPOg'
     }
   ]
 
